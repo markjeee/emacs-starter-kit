@@ -26,6 +26,8 @@
 
 (add-to-list 'load-path (concat dotfiles-dir "/elpa-to-submit"))
 
+(add-to-list 'load-path (concat dotfiles-dir "/addons"))
+
 (setq autoload-file (concat dotfiles-dir "loaddefs.el"))
 (setq package-user-dir (concat dotfiles-dir "elpa"))
 (setq custom-file (concat dotfiles-dir "custom.el"))
@@ -34,7 +36,9 @@
 (dolist (source '(("gnu" . "http://elpa.gnu.org/packages/")
                   ("elpa" . "http://tromey.com/elpa/")))
   (add-to-list 'package-archives source t))
+
 (package-initialize)
+
 (require 'starter-kit-elpa)
 
 ;; These should be loaded on startup rather than autoloaded on demand
