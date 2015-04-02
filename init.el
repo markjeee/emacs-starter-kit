@@ -22,7 +22,9 @@
 
 ;; Load up ELPA, the package manager
 
-(add-to-list 'load-path dotfiles-dir)
+;; (add-to-list 'load-path dotfiles-dir)
+
+(add-to-list 'load-path (concat dotfiles-dir "/starter-kit"))
 
 (add-to-list 'load-path (concat dotfiles-dir "/elpa-to-submit"))
 
@@ -33,8 +35,12 @@
 (setq custom-file (concat dotfiles-dir "custom.el"))
 
 (require 'package)
-(dolist (source '(("gnu" . "http://elpa.gnu.org/packages/")
-                  ("elpa" . "http://tromey.com/elpa/")))
+(dolist (source 
+    '(
+      ("gnu" . "http://elpa.gnu.org/packages/")
+      ("melpha" . "http://melpa.org/packages/")
+      ("elpa" . "http://tromey.com/elpa/")
+    ))
   (add-to-list 'package-archives source t))
 
 (package-initialize)
