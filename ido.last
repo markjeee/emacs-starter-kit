@@ -1,0 +1,411 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/markj/configs/docker/" . "transmission/")
+ ("/Users/markj/work/fury/fury-info/src/help/content/" . "help/")
+ ("/Users/markj/work/fury/fury-info/src/help/layouts/" . "shortcodes/")
+ ("/Users/markj/work/fury/fury-info/src/help/config/" . "production/")
+ ("/Users/markj/work/exercism/go/" . "two-fer/")
+ ("/Users/markj/work/synacy/puppet/modules/config/" . "manifests/")
+ ("/Users/markj/work/synacy/puppet/modules/users/files/" . "dev/")
+ ("/Users/markj/work/synacy/puppet/modules/users/" . "manifests/")
+ ("/Users/markj/work/synacy/puppet/modules/" . "postfix/")
+ ("/Users/markj/work/synacy/puppet/manifests/" . "nodes/")
+ ("/Users/markj/work/synacy/puppet/" . "modules/")
+ ("/Users/markj/work/fury/fury-info/src/help/" . "content/")
+ ("/Users/markj/work/fury/fury-info/src/" . "help/")
+ ("/Users/markj/.m2/" . "repository/")
+ ("/Users/markj/work/fury/fury-info/" . "src/")
+ ("/Users/markj/.config/" . "NuGet/")
+ ("/Users/markj/work/fury/furynix_public/jworld/build/repo/org/furynix/jworld/" . "1.1/")
+ ("/Users/markj/work/fury/furynix_public/jworld/build/repo/org/furynix/" . "jworld/")
+ ("/Users/markj/work/fury/furynix_public/jworld/build/repo/org/" . "furynix/")
+ ("/Users/markj/work/fury/furynix_public/jworld/build/repo/" . "org/")
+ ("/Users/markj/work/fury/furynix_public/jworld/build/publications/" . "jworld/")
+ ("/Users/markj/work/fury/furynix_public/jworld/build/" . "repo/")
+ ("/Users/markj/tmp/" . "my-app/")
+ ("/Users/markj/work/fury/furynix_public/gem_using_bundler/lib/" . "gem_using_bundler/")
+ ("/Users/markj/work/fury/furynix_public/gem_using_bundler/" . "lib/")
+ ("/Users/markj/work/fury/furynix_public/app_using_gem/spec/" . "app/")
+ ("/Users/markj/work/fury/furynix_public/dockerfiles/" . "go/")
+ ("/Users/markj/work/thomas/" . "baseimage/")
+ ("/Users/markj/work/fury/furynix_public/jworld/src/main/java/org/" . "furynix/")
+ ("/Users/markj/work/fury/furynix_public/jworld/src/main/java/" . "org/")
+ ("/Users/markj/work/fury/furynix_public/hworld/src/main/" . "java/")
+ ("/Users/markj/work/fury/furynix_public/hworld/src/" . "main/")
+ ("/Users/markj/work/fury/furynix_public/hworld/" . "src/")
+ ("/Users/markj/work/fury/furynix_public/jworld/src/test/" . "java/")
+ ("/Users/markj/work/fury/furynix_public/jworld/src/main/" . "java/")
+ ("/Users/markj/work/fury/furynix_public/jworld/src/" . "test/")
+ ("/Users/markj/work/fury/furynix_public/jworld/test/" . "java/")
+ ("/Users/markj/work/exercism/java/two-fer/src/test/" . "java/")
+ ("/Users/markj/work/exercism/java/two-fer/src/main/" . "java/")
+ ("/Users/markj/work/exercism/java/two-fer/src/" . "test/")
+ ("/Users/markj/work/exercism/java/two-fer/" . "src/")
+ ("/Users/markj/work/fury/furynix_public/jworld/main/" . "java/")
+ ("/Users/markj/work/fury/furynix_public/jworld/" . "build/")
+ ("/Users/markj/work/exercism/java/hello-world/src/test/" . "java/")
+ ("/Users/markj/work/exercism/java/hello-world/src/main/" . "java/")
+ ("/Users/markj/work/exercism/java/hello-world/src/" . "test/")
+ ("/Users/markj/work/exercism/java/hello-world/" . "src/")
+ ("/Users/markj/work/exercism/java/" . "two-fer/")
+ ("/Users/markj/work/exercism/" . "go/")
+ ("/Users/markj/work/fury/furynix_public/app_using_gem/" . "spec/")
+ ("/Users/markj/work/fury/furynix_public/lib/" . "furynix/")
+ ("/Users/markj/.gem/" . "ruby/")
+ ("/Users/markj/work/fury/furynix_public/spec/" . "specs/")
+ ("/Users/markj/work/fury/furynix_public/" . "app_using_gem/")
+ ("/Users/markj/work/fury/furynix/module_using_npm/" . "test/")
+ ("/Users/markj/work/fury/furynix/bin/" . "support/")
+ ("/Users/markj/work/certs/markjeee.com/pki/" . "private/")
+ ("/Users/markj/work/certs/markjeee.com/" . "pki/")
+ ("/Users/markj/work/certs/" . "markjeee.com/")
+ ("/Users/markj/work/bobby/" . "attributes/")
+ ("/Users/markj/configs/openvpn/" . "rose-i6-vpngw.ovpn/")
+ ("/Users/markj/work/deeploy/cookbooks/deeploy/" . "attributes/")
+ ("/Users/markj/work/deeploy/cookbooks/" . "deeploy/")
+ ("/Users/markj/work/deeploy/databags/" . "certs/")
+ ("/Users/markj/work/deeploy/" . "vpngw/")
+ ("/Users/markj/work/fury/gemfury/lib/faraday/" . "request/")
+ ("/Users/markj/work/devkit/lib/" . "devkit/")
+ ("/Users/markj/work/devkit/" . "lib/")
+ ("/Users/markj/work/fury/furynix/lib/" . "furynix/")
+ ("/Users/markj/work/docker_task/lib/" . "docker_task/")
+ ("/Users/markj/work/docker_task/" . "lib/")
+ ("/Users/markj/work/fury/furynix/app_using_gem/spec/" . "app/")
+ ("/Users/markj/work/fury/furynix/app_using_gem/" . "spec/")
+ ("/Users/markj/work/fury/furynix/gem_using_bundler/lib/" . "gem_using_bundler/")
+ ("/Users/markj/work/fury/furynix/gem_using_bundler/" . "spec/")
+ ("/Users/markj/work/fury/furynix/spec/" . "specs/")
+ ("/Users/markj/work/fury/furynix/" . "bin/")
+ ("/usr/local/Cellar/packtory-dev/0.1.4/" . "bin/")
+ ("/usr/local/Cellar/packtory-dev/" . "0.1.4/")
+ ("/usr/local/Cellar/" . "packtory-dev/")
+ ("/Users/markj/work/packtory/packtory/bin/" . "support/")
+ ("/Users/markj/work/packtory/packtory/lib/packtory/" . "bundler/")
+ ("/Users/markj/work/packtory/packtory/spec/" . "exec/")
+ ("/Users/markj/work/packtory/packtory.github.io/themes/simplicity/exampleSite/" . "content/")
+ ("/Users/markj/work/packtory/packtory.github.io/themes/simplicity/" . "exampleSite/")
+ ("/Users/markj/work/packtory/packtory.github.io/themes/hugo-split/" . "exampleSite/")
+ ("/Users/markj/work/packtory/packtory.github.io/themes/tale/layouts/" . "partials/")
+ ("/Users/markj/work/packtory/packtory.github.io/themes/tale/" . "layouts/")
+ ("/Users/markj/work/packtory/packtory.github.io/themes/" . "simplicity/")
+ ("/Users/markj/work/packtory/packtory.github.io/" . "content/")
+ ("/Users/markj/work/packtory/homebrew-tap/" . "Formula/")
+ ("/Users/markj/work/packtory/packtory/lib/" . "packtory/")
+ ("/Users/markj/work/packtory/packtory/" . "lib/")
+ ("/Users/markj/work/packtory/" . "packtory/")
+ ("/Users/markj/work/fury/homebrew-tap/" . "Formula/")
+ ("/Users/markj/work/fury/gemfury/spec/" . "gemfiles/")
+ ("/Users/markj/work/vendor/" . "ronn/")
+ ("/Users/markj/configs/" . "docker/")
+ ("/Users/markj/work/homebrew-tap/Formula/" . "ronn.rb/")
+ ("/Users/markj/work/fury/gemfury/lib/gemfury/" . "command/")
+ ("/Users/" . "markj/")
+ ("/Users/markj/work/homebrew-tap/" . "Formula/")
+ ("/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/" . "Formula/")
+ ("/usr/local/Homebrew/Library/Taps/homebrew/" . "homebrew-core/")
+ ("/usr/local/Homebrew/Library/Taps/" . "homebrew/")
+ ("/usr/local/Homebrew/Library/" . "Taps/")
+ ("/usr/local/Homebrew/" . "Library/")
+ ("/usr/local/" . "Cellar/")
+ ("/Users/markj/work/synacy/poker-coding-exercise-and-solution/src/main/java/com/synacy/poker/" . "game/")
+ ("/Users/markj/work/synacy/poker-coding-exercise-and-solution/src/main/java/com/synacy/" . "poker/")
+ ("/Users/markj/work/synacy/poker-coding-exercise-and-solution/src/main/java/com/" . "synacy/")
+ ("/Users/markj/work/synacy/poker-coding-exercise-and-solution/src/main/java/" . "com/")
+ ("/Users/markj/work/synacy/poker-coding-exercise-and-solution/src/main/" . "java/")
+ ("/Users/markj/work/synacy/poker-coding-exercise-and-solution/src/" . "main/")
+ ("/Users/markj/work/synacy/poker-coding-exercise-and-solution/" . "src/")
+ ("/Users/markj/work/synacy/" . "swproto/")
+ ("/Users/markj/work/fury/fury-buildpack-packtory/bin/" . "support/")
+ ("/Users/markj/work/fury/fury-buildpack-packtory/spec/" . "buildpack/")
+ ("/Users/markj/work/fury/fury-buildpack-packtory/" . "bin/")
+ ("/Users/markj/work/fury/packtory/spec/" . "packtory/")
+ ("/Users/markj/work/fury/packtory/" . "lib/")
+ ("/Users/markj/work/fury/packtory/lib/" . "packtory/")
+ ("/Users/markj/work/fury/packtory/bin/" . "support/")
+ ("/Users/markj/work/fury/packguy/spec/" . "packguy/")
+ ("/Users/markj/work/fury/fury-buildpack-fpm/" . "bin/")
+ ("/Users/markj/work/fury/packguy/lib/" . "packguy/")
+ ("/Users/markj/work/fury/packguy/" . "spec/")
+ ("/Users/markj/work/fury/gemfury/lib/" . "gemfury/")
+ ("/Users/markj/work/fury/gemfury/" . "spec/")
+ ("/Users/markj/work/fury/" . "furynix_public/")
+ ("/Users/markj/work/" . "synacy/")
+ ("/Users/markj/" . "work/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/markj/work/synacy/swproto/"
+ "/Users/markj/work/deeploy/vpngw/"
+ "/Users/markj/work/bobby/attributes/"
+ "/Users/markj/work/deeploy/mark-qnuc/"
+ "/Users/markj/work/deeploy/cookbooks/deeploy/attributes/"
+ "/Users/markj/work/deeploy/roles/"
+ "/Users/markj/work/deeploy/environments/"
+ "/Users/markj/configs/docker/transmission/"
+ "/Users/markj/work/fury/furynix_public/app_using_gem/"
+ "/Users/markj/work/fury/furynix_public/jgo/"
+ "/Users/markj/"
+ "/Users/markj/work/fury/furynix_public/hgo/"
+ "/Users/markj/work/fury/furynix_public/"
+ "/Users/markj/work/fury/furynix_public/spec/specs/"
+ "/Users/markj/work/fury/furynix_public/spec/exec/"
+ "/Users/markj/work/fury/gemfury/"
+ "/Users/markj/work/devkit/"
+ "/Users/markj/work/docker_task/"
+ "/Users/markj/work/fury/gemfury/spec/gemfiles/"
+ "/Users/markj/work/fury/gemfury/lib/gemfury/command/"
+ "/Users/markj/work/fury/gemfury/spec/gemfury/"
+ "/Users/markj/work/fury/gemfury/lib/gemfury/"
+ "/Users/markj/work/fury/gemfury/lib/"
+ "/Users/markj/work/fury/fury-info/src/help/data/"
+ "/Users/markj/work/fury/fury-info/src/help/layouts/partials/language/"
+ "/Users/markj/work/fury/fury-info/src/help/content/help/"
+ "/Users/markj/work/fury/fury-info/src/help/layouts/shortcodes/"
+ "/Users/markj/work/fury/fury-info/src/help/layouts/partials/"
+ "/Users/markj/work/fury/fury-info/src/help/config/production/"
+ "/Users/markj/work/fury/fury-info/src/help/config/_default/"
+ "/Users/markj/work/fury/furynix/"
+ "/Users/markj/.ssh/"
+ "/Users/markj/work/fury/furynix_public/spec/support/"
+ "/Users/markj/work/fury/furynix_public/dockerfiles/go/"
+ "/Users/markj/work/exercism/go/two-fer/"
+ "/Users/markj/work/exercism/go/hello-world/"
+ "/Users/markj/work/fury/furynix_public/jworld/"
+ "/Users/markj/work/fury/furynix_public/hworld/"
+ "/Users/markj/.gradle/"
+ "/Users/markj/work/fury/furynix_public/dockerfiles/linuxbrew/"
+ "/Users/markj/work/fury/furynix_public/dockerfiles/bionic/"
+ "/Users/markj/.m2/"
+ "/Users/markj/work/synacy/tmp/"
+ "/Users/markj/work/synacy/puppet/modules/config/manifests/"
+ "/Users/markj/work/synacy/puppet/modules/users/manifests/"
+ "/Users/markj/work/synacy/puppet/manifests/nodes/"
+ "/Users/markj/work/synacy/puppet/modules/users/files/"
+ "/Users/markj/work/synacy/puppet/manifests/classes/"
+ "/Users/markj/work/fury/fury-info/src_co/"
+ "/Users/markj/work/fury/fury-info/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "index.js"
+ "Berksfile"
+ "default.rb"
+ "mark-qnuc.rb"
+ "office_lan.rb"
+ "Vagrantfile"
+ "docker-compose.yml"
+ "Rakefile"
+ "Gemfile.lock"
+ "Gemfile"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/markj/" (24109 23656 376552 247000) ".zlogin" ".profile~" ".viminfo" ".bash_history" ".ssh_auth.sock" ".gitconfig" ".aws/" "tmp/" "Downloads/" ".gem/" ".bash_profile" ".m2/" ".vscode/" ".mono/" ".swt/" ".pgpass" "Documents/" ".npm/" ".gitflow_export" ".travis/" ".zoomus/" "IdeaProjects/" ".Trash/" "Dropbox/" "Plex/" "Zoom/" ".gradle/" ".profile" "Applications/" ".dotnet/" "Movies/" ".ssh/" "configs/" "work/" ".dropbox/" ".gcloud_keys/" "Public/" ".bash_sessions/" ".cups/" ".proxyman/" ".gitignore_global" ".android/" ".node_repl_history" ".emacs.d/" ".IdentityService/" ".oracle_jre_usage/" ".berkshelf/" ".lesshst" ".mkshrc" ".npmrc" ".irb-history" "Library/" "Desktop/" ".rvm/" ".my_profile" ".boto" ".nuget/" "Postman/" ".bundle/" ".atom/" ".InstallAnywhere/" "Pictures/" "Creative Cloud Files/" ".local/" ".templateengine/" ".adobe/" ".omnisharp/" ".proxyman-data/" ".zshrc" ".bashrc" ".subversion/" ".netrc" ".vagrant.d/" "bin/" "Google Drive File Stream/" ".wget-hsts" ".hgignore_global" ".stCommitMsg" ".CFUserTextEncoding" ".yarnrc" "VirtualBox VMs/" ".tmux.conf" ".499481.padl" ".npmrc~" ".gnupg/" ".DS_Store" "go/" "OneDrive - Markjeee Software Inc/" ".my_profile.backup" ".gnupg_pre_2.1/" ".docker/" ".clojure/" ".my.cnf" "Music/" ".config/" "../" "./")
+
+ ("/Users/markj/configs/docker/transmission/" (24109 35259 54211 34000) "docker-compose.yml" "../" "./")
+
+ ("/Users/markj/work/deeploy/vpngw/" (23886 27835 868050 39000) "metadata.rb" "Vagrantfile" "ubuntu-bionic-18.04-cloudimg-console.log" ".vagrant/" "Berksfile.lock" "Berksfile" "../" "./")
+
+ ("/Users/markj/work/bobby/attributes/" (23886 61695 414298 805000) "default.rb" "../" "./")
+
+ ("/Users/markj/work/bobby/" (23797 4816 6013 106000) "chefignore" ".git/" "metadata.rb" "templates/" "recipes/" ".gitignore" "attributes/" "README.md" "libraries/" "Berksfile.lock" "spec/" "Berksfile" "resources/" "test/" ".DS_Store" "../" "./")
+
+ ("/Users/markj/work/deeploy/cookbooks/deeploy/attributes/" (23795 8527 65619 92000) "default.rb" "../" "./")
+
+ ("/Users/markj/work/deeploy/cookbooks/deeploy/recipes/" (23795 45831 43873 301000) "params.rb" "openssh.rb" "squid.rb" "dnsmasq.rb" "appscale.rb" "openvpn.rb" "ufw.rb" "haproxy.rb" "consul.rb" "apt.rb" "varnish.rb" "ca_certs.rb" "../" "./")
+
+ ("/Users/markj/work/deeploy/cookbooks/deeploy/" (23795 26656 39276 499000) "metadata.rb" "templates/" "recipes/" "attributes/" "libraries/" ".DS_Store" "../" "./")
+
+ ("/Users/markj/work/deeploy/cookbooks/" (23795 8438 39463 307000) "deeploy/" ".DS_Store" "../" "./")
+
+ ("/Users/markj/work/deeploy/roles/" (24109 22804 737339 37000) "office_lan.rb" "mark-nuc.rb" "local_vb.rb" "vpngw.rb" "private_gcp.rb" "mark-qnuc.rb" "../" "./")
+
+ ("/Users/markj/work/deeploy/environments/" (24109 22799 895210 111000) "office_lan.rb" "local_vb.rb" "private_gcp.rb" "../" "./")
+
+ ("/Users/markj/work/deeploy/mark-qnuc/" (24109 22765 216022 273000) "metadata.rb" "Vagrantfile" "ubuntu-bionic-18.04-cloudimg-console.log" "recipes/" ".vagrant/" "Berksfile.lock" "Berksfile" "../" "./")
+
+ ("/Users/markj/work/deeploy/" (24109 22347 626308 77000) "empty-box/" "cookbooks/" "Thorfile" ".git/" "NOTES.md" "Capfile" "keys/" "Gemfile.lock" "api/" "Gemfile" "lib/" "_config.yml" "mark-qnuc/" ".env" "_site/" "package-lock.json" ".gitignore" "thorlib/" "notes/" "Rakefile" "old_recipes/" "README.md" "mongodb/" "_layouts/" "roles/" "var/" "vpngw/" "environments/" "nodes/" "config/" ".ruby-version~" ".ruby-version" "mark-nuc/" ".DS_Store" "databags/" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/dockerfiles/linuxbrew/" (24024 45489 479697 204000) "Dockerfile" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/hworld/" (24085 47869 151897 671000) "src/" ".idea/" "gradlew.bat" "build/" ".gradle/" "build.gradle" "gradlew" "Rakefile" "gradle/" "pom.xml" "target/" ".DS_Store" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/jworld/" (24085 47760 632882 583000) "src/" "jworld.iml" ".idea/" "gradlew.bat" "build/" ".gradle/" "build.gradle" "gradlew" "Rakefile" "gradle/" "pom.xml" "target/" "out/" ".DS_Store" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/help/content/help/" (24107 37749 50150 276000) "could-not-verify-ssl-certificate.md" "npm-registry.md" "_index.md" "gdpr.md" "private-gems-on-heroku.md" "tokens.md" "errors/" "customize-git-build.md" "education.md" "bower-registry.md" "pypi-server.md" "upload-packages.md" "partners.md" "yum-repository.md" "repository-url.md" "private-npm-on-heroku.md" "apt-repository.md" "limits.md" "git-push-package.md" "maven-repository.md" "billing.md" "getting-started.md" "package-types.md" "changes-deprecations.md" "install-gems.md" "public-packages.md" "url-string-over-https.md" "git-auto-version.md" "gemfury-cli.md" "nuget-server.md" "custom-domains.md" "private-yarn.md" "php-composer-server.md" "collaboration.md" "organizations.md" "../" "./")
+
+ ("/Users/markj/work/fury/gemfury/spec/gemfury/" (24107 57584 578564 306000) "auth_spec.rb" "app_spec.rb" "client_spec.rb" "error_spec.rb" "../" "./")
+
+ ("/Users/markj/work/devkit/" (24107 54258 141672 923000) "Cablefile" "Gemfile.lock" "Gemfile" "lib/" "nginx/" "Rakefile" "README.md" "var/" "config/" "mariadb/" ".DS_Store" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/spec/exec/" (24108 1998 795766 760000) "curl_users_me" "maven_build_jworld" "brew_install_gemfury" "app_using_gem_test" "functions" "gradle_build_jworld" "apt_install_gemfury" "dotnet_build_hello" "cli_push_test" "go_build_hgo" "module_using_npm_test" "cli_list_test" "gradle_build_hworld" "maven_build_hworld" "gem_using_bundler_test" "rubygems_install_gemfury" "yum_install_gemfury" "dotnet_build_world" "go_build_jgo" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/spec/specs/" (24108 1785 477804 809000) "dockerfiles/" "gradle_build_spec.rb" "yum_install_gemfury_spec.rb" "go_build_spec.rb" "rubygems_install_gemfury_spec.rb" "maven_build_spec.rb" "do.rb" "rubygems_gem_using_bundler_spec.rb" "gemfury_api_spec.rb" "apt_install_gemfury_spec.rb" "npm_module_using_npm_spec.rb" "cli_spec.rb" "brew_install_gemfury_spec.rb" "curl_spec.rb" "dotnet_build_spec.rb" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/hgo/" (24108 2541 50632 294000) "hgo.go" "go.sum" "hgo_test.go" "hgo" "go.mod" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/jgo/" (24108 2007 604992 123000) "jgo_test.go" ".git/" "git_clean.tgz" "1.1.0-delta" "v1.0.0-notes.md" "go.mod" "jgo.go" "._.git" "../" "./")
+
+ ("/Users/markj/configs/docker/" (24109 22220 283697 707000) "transmission/" ".DS_Store" "../" "./")
+
+ ("/Users/markj/configs/" (24109 22213 632940 141000) "haproxy/" "dnsmasq/" "resolver/" "git/" "servers/" "jasspa/" "alfred/" "omnisession/" "kannel/" ".git/" "puppetm/" "cabling/" "hosts/" "mongo/" "keys/" "registry/" "tmux/" "named/" "mysql/" "screen/" "nginx/" "asus-rt/" ".gitignore" "dlink cam/" "ssh/" "apache2/" "pfsense/" "openvpn/" "bash/" "emacs/" "README" "php/" "utils/" "terminator/" "Quiver/" "tunnelblick/" "cradlepoint/" "ceph/" "tapsilog/" "redis/" "popo/" "xmonad/" "byobu/" ".DS_Store" "docker/" "mark-qnap/" "iTerm/" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/app_using_gem/" (24108 2791 362351 980000) "Gemfile.lock" "Gemfile" "lib/" "Rakefile" "spec/" "gemfiles/" ".rspec" "../" "./")
+
+ ("/Users/markj/work/fury/gemfury/spec/gemfiles/" (24107 57584 564945 170000) "Gemfile.19" "Gemfile.18" ".bundle/" "Gemfile.18.lock" "Gemfile.19.lock" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/" (24107 58104 918458 112000) ".rspec_parallel" "jworld/" ".travis.yml" "tmp/" "dockerfiles/" ".git/" "jgo/" "Containers" "DotNetWorld/" "module_using_npm/" "Gemfile.lock" "Gemfile" "lib/" "Vagrantfile" "exec/" ".env" ".gitignore" "Rakefile" "README.md" "gem_using_bundler/" "app_using_gem/" "DotNetHello/" ".vagrant/" "spec/" "hgo/" "bin/" "hworld/" ".DS_Store" ".rspec" "../" "./")
+
+ ("/Users/markj/work/fury/gemfury/" (24107 57584 577715 634000) "pkg/" "vendor/" ".travis.yml" "tmp/" ".git/" "Gemfile.lock" "Gemfile" "lib/" ".gitignore" "Rakefile" "README.md" "gemfury.gemspec" "spec/" "CHANGELOG" "bin/" "LICENSE" ".DS_Store" ".rspec" "man/" "../" "./")
+
+ ("/Users/markj/work/fury/" (24107 53756 29264 88000) "yard/" "bundler/" "fury-info/" "furynix/" "packages/" "diff-lcs/" "dotnet/" "rubygems/" "furynix_public/" "fpm/" "rspec-core/" "homebrew-tap/" "rake/" "fury-love-gh/" "publicsuffix-ruby/" "furyious/" "fury-buildpack-packtory/" ".DS_Store" "gemfury/" "crack/" "fury.code-workspace" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/help/data/" (24107 37749 51085 802000) "build.yaml" "repos.yaml" "nav.yaml" "languages.yaml" "../" "./")
+
+ ("/Users/markj/work/fury/gemfury/spec/" (23803 25694 931561 699000) "fixtures/" "support/" "gemfiles/" ".DS_Store" "gemfury/" "spec_helper.rb" "../" "./")
+
+ ("/Users/markj/work/fury/gemfury/lib/gemfury/command/" (24107 39909 456115 331000) "authorization.rb" "app.rb" "../" "./")
+
+ ("/Users/markj/work/fury/gemfury/lib/gemfury/" (24107 39903 657574 566000) "client/" "configuration.rb" "tasks.rb" "command.rb" "command/" "error.rb" "version.rb" "client.rb" "platform.rb" "tasks/" "const.rb" "../" "./")
+
+ ("/Users/markj/work/fury/gemfury/lib/" (24107 39401 867002 283000) "rubygems_plugin.rb" "rubygems/" "faraday/" ".DS_Store" "gemfury/" "gemfury.rb" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/shared/" (24039 49167 291140 384000) "themes/" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/shared/themes/" (24039 49167 307256 81000) "whisper/" "dotco/" "fury-cosmo/" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/shared/themes/fury-cosmo/" (24039 49167 306831 568000) "assets/" "static/" "layouts/" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/shared/themes/fury-cosmo/layouts/" (24052 34183 564627 703000) "help/" "partials/" "legal/" "_default/" "blog/" "policies/" "inside/" "changelog/" "index.html" "guide/" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/shared/themes/fury-cosmo/layouts/help/" (24107 37749 51514 302000) "list.html" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/help/layouts/partials/language/" (24052 34183 340749 891000) "deb.html" "ruby.html" "js.html" "rpm.html" "php.html" "python.html" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/help/content/" (24052 34245 112371 137000) "help/" "legal/" "blog/" "policies/" "inside/" "changelog/" ".DS_Store" "guide/" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/help/layouts/shortcodes/" (24052 34183 343995 976000) "partner-badge.html" "oldref.html" "help-languages.html" "help-snippet.html" "help-buildpacks.html" "elem-attrs.html" "partial.html" "icon-tag.html" "repo-url.html" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/help/layouts/partials/" (24107 34256 281200 27000) "about-language-tabs.html" "language/" ".DS_Store" "beta-badge.html" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/help/layouts/" (24087 9858 328927 390000) "partials/" "shortcodes/" ".gitkeep" ".DS_Store" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/help/config/production/" (24052 34183 242761 899000) "config.toml" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/help/config/_default/" (24052 34183 241991 766000) "config.toml" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/" (24087 10658 636703 159000) "src/" ".git/" "build/" "Procfile" "Gemfile.lock" "Gemfile" "package.json" ".gitignore" "yarn.lock" "Rakefile" "README.md" "node_modules/" "resources/" "config.ru" "src_co/" "bin/" "app/" ".DS_Store" "../" "./")
+
+ ("/Users/markj/work/synacy/swproto/" (24102 20340 12104 65000) "#env.example#" "#Dockerfile#" "env.example" "package.json" "package-lock.json" "yarn.lock" "README.md" "index.js" "node_modules/" "Dockerfile" ".DS_Store" "../" "./")
+
+ ("/Users/markj/work/fury/furynix/" (24099 53510 469690 581000) ".rspec_parallel" "vendor/" "tmp/" ".git/" "DotNetWorld/" "module_using_npm/" "Gemfile.lock" "Gemfile" "lib/" "Vagrantfile" "exec/" "ubuntu-bionic-18.04-cloudimg-console.log" ".env" ".gitignore" "Rakefile" "README.md" "gem_using_bundler/" "app_using_gem/" "DotNetHello/" ".vagrant/" "spec/" ".bundle/" "bin/" ".DS_Store" ".rspec" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/help/config/" (24052 34855 161457 59000) "production/" "_default/" ".DS_Store" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/help/" (24087 9300 842161 415000) "data/" "static/" "layouts/" "content/" "resources/" "archetypes/" "footers/" "config/" ".DS_Store" "../" "./")
+
+ ("/Users/markj/configs/ssh/" (24084 12447 533412 212000) "config" "config~" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/jworld/build/publications/jworld/" (24069 62250 544049 391000) "module.json" "pom-default.xml" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/jworld/build/repo/org/furynix/jworld/1.1/" (24069 62250 909038 699000) "jworld-1.1.pom.md5" "jworld-1.1.jar" "jworld-1.1.module.sha256" "jworld-1.1.pom.sha1" "jworld-1.1.module.md5" "jworld-1.1.jar.sha256" "jworld-1.1.pom.sha512" "jworld-1.1.jar.md5" "jworld-1.1.pom" "jworld-1.1.module.sha512" "jworld-1.1.jar.sha1" "jworld-1.1.module" "jworld-1.1.jar.sha512" "jworld-1.1.module.sha1" "jworld-1.1.pom.sha256" "../" "./")
+
+ ("/Users/markj/.m2/" (24069 58238 179157 551000) "settings.xml" "repository/" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/dockerfiles/bionic/" (23969 36377 201086 42000) "Dockerfile" "../" "./")
+
+ ("/Users/markj/.gradle/" (24069 57216 782953 910000) "caches/" "notifications/" "gradle.properties" "workers/" "daemon/" "wrapper/" "native/" "../" "./")
+
+ ("/Users/markj/work/exercism/go/two-fer/" (24072 19995 712581 13000) "two_fer_test.go" "example_two_fer_test.go" "README.md" ".exercism/" "go.mod" "two_fer.go" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/dockerfiles/go/" (24073 43224 115300 421000) "Dockerfile" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/spec/support/" (24073 43860 474760 612000) "docker_containers.rb" "docker_success.rb" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/dockerfiles/" (24073 40244 142354 825000) "fedora29/" "centos7/" "dotnet/" "gradle/" "linuxbrew/" "maven/" "stretch/" ".DS_Store" "go/" "bionic/" "../" "./")
+
+ ("/Users/markj/work/exercism/go/" (24072 14398 160737 202000) "hello-world/" "two-fer/" "../" "./")
+
+ ("/Users/markj/work/exercism/go/hello-world/" (24072 14242 244693 470000) "README.md" "hello_world_test.go" ".exercism/" "go.mod" "hello_world.go" "../" "./")
+
+ ("/Users/markj/work/exercism/" (24072 13759 955874 871000) ".git/" ".gitignore" "java/" ".DS_Store" "go/" "../" "./")
+
+ ("/Users/markj/work/synacy/tmp/" (24062 4662 464615 353000) "mail2.queue.txt" "mail1.queue.txt" "../" "./")
+
+ ("/Users/markj/work/synacy/" (24062 4662 464615 410000) "puppet/" "rise/" "tmp/" "coding-exam-senior/" "poker.zip" "swproto.zip" "exam/" "anexo/" "code/" "poker/" ".DS_Store" "utbox/" "poker-coding-exercise-and-solution/" "swproto/" "../" "./")
+
+ ("/Users/" (23441 4723 352352 313000) "Guest/" "markj/" "Shared/" ".localized" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src_co/" (24052 34215 165689 96000) "assets/" "data/" "static/" "layouts/" "content/" "archetypes/" "../" "./")
+
+ ("/Users/markj/work/synacy/puppet/modules/users/files/" (24061 51002 117978 608000) "dev/" "bashrc.erb" "profile" ".DS_Store" "../" "./")
+
+ ("/Users/markj/work/synacy/puppet/modules/postfix/" (23714 61037 632394 609000) "manifests/" "files/" "../" "./")
+
+ ("/Users/markj/work/synacy/puppet/modules/config/manifests/" (24061 51523 996570 790000) "init.pp" "utbox-staging.pp" "utbox.pp" "java/" "utbox-dev.pp" "utbox-base.pp" ".DS_Store" "../" "./")
+
+ ("/Users/markj/work/synacy/puppet/modules/config/files/" (24061 49929 307473 993000) "ut.conf-gsyd" "ut.conf-monostaging" "environment" "utbox_changeset-utstaging.yml" "ut.conf-dev.erb" "utbox_changeset-monostaging.yml" "ut.conf" "java/" "utbox_changeset.yml-prod.erb" "ut.conf-utstaging" "../" "./")
+
+ ("/Users/markj/work/synacy/puppet/modules/config/" (23714 61037 493996 178000) "manifests/" "files/" "../" "./")
+
+ ("/Users/markj/work/synacy/puppet/modules/users/manifests/" (24061 51100 1297 816000) "user-profile.pp" "user-base.pp" "user-dev.pp" "init.pp" "users.pp" "../" "./")
+
+ ("/Users/markj/work/synacy/puppet/modules/users/" (24061 50997 112685 371000) "manifests/" "files/" ".DS_Store" "../" "./")
+
+ ("/Users/markj/work/synacy/puppet/modules/" (24061 50992 109033 124000) "fps/" "billing/" "elasticsearch/" "repo/" "hylafax/" "drbd/" "bind/" "worker/" "sudo/" "postfix/" "aws/" "codebase/" "mime/" "smb/" "monit/" "dhcp/" "users/" "mysql/" "ucarp/" "http/" "nginx/" "pacemaker/" "ssh/" "cronjob/" "postgres/" "heartbeat/" "ntp/" "zookeeper/" "mule/" "elk/" "dncrwash/" "munin/" "asterisk/" "config/" "nfs/" "freeswitch/" "netcat/" "kibana/" "archive/" "tomcat/" ".DS_Store" "syslog/" "logcourier/" "cloudwatch/" "nagios/" "svn/" "activemq/" "packagebuilder/" "../" "./")
+
+ ("/Users/markj/work/synacy/puppet/" (24061 50986 717432 68000) "modules/" ".git/" "manifests/" "auth.conf" ".gitignore" "README" "fileserver.conf" ".DS_Store" "puppet.conf" "../" "./")
+
+ ("/etc/" (24051 5258 231602 16000) "notify.conf" "mail.rc" "newsyslog.conf" "mach_init_per_user.d/" "afpovertcp.cfg" "zprofile" "passwd" "resolver/" "services" "man.conf" "cups/" "protocols" "wfs/" "com.apple.screensharing.agent.launchd" "aliases" "openldap/" "fstab.hd" "master.passwd" "rpc" "ntp.conf" "pf.anchors/" "pf.os" "postfix/" "hosts" "rc.netboot" "asl.conf" "sudo_lecture" "nfs.conf" "resolv.conf" "locate.rc" "ntp_opendirectory.conf" "csh.cshrc" "profile" "mach_init_per_login_session.d/" "ftpusers" "ssh/" "autofs.conf" "apache2/" "find.codes" "networks" "hosts.equiv" "defaults/" "zshrc" "pam.d/" "irbrc" "newsyslog.d/" "bashrc" "sudoers" "pf.conf" "localtime" "php.ini.default" "xtab" "rmtab" "paths" "php-fpm.conf.default" "php-fpm.d/" "ttys" "shells" "ppp/" "manpaths.d/" "auto_home" "group" "security/" "rtadvd.conf" "asl/" "paths.d/" "kern_loader.conf" "gettytab" "snmp/" "racoon/" "bashrc_Apple_Terminal" "aliases.db" "csh.logout" "nanorc" "ssl/" "sudoers.d/" "krb5.keytab" "syslog.conf" "mach_init.d/" "csh.login" "auto_master" "rc.common" "dnsextd.conf" "manpaths" "periodic/" "ntp-restrict.conf" "emond.d/" "../" "./")
+
+ ("/Users/markj/work/synacy/puppet/modules/users/files/dev/" (23714 61037 645478 470000) "bashrc.erb" "env" "../" "./")
+
+ ("/Users/markj/work/synacy/puppet/manifests/classes/" (23714 61037 289086 51000) "base.pp" "sydney.pp" "../" "./")
+
+ ("/Users/markj/work/synacy/puppet/manifests/nodes/" (24061 49929 304878 824000) "mysql.pp" "jms.pp" "staging.pp" "wwwproxy.pp" "dev.pp" "smokeping.pp" "filter.pp" "postgres.pp" "app.pp" "fs.pp" "admin.pp" "webproxy.pp" "hylafax.pp" "convproxy.pp" "inbound.pp" "wwwpublic.pp" "esb.pp" "webapp.pp" "dns.pp" "billing.pp" "staging-billing.pp" "elk.pp" "wwwmembers.pp" "db.pp" "elasticsearch.pp" "worker.pp" "t38staging.pp" "mail.pp" "../" "./")
+
+ ("/Users/markj/work/synacy/puppet/manifests/" (23714 61037 294732 757000) "nodes.pp" "site.pp" "classes/" "nodes/" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/help/archetypes/" (24052 34183 241608 290000) "default.md" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/src/" (24052 34238 805207 881000) "help/" "dev/" "shared/" ".DS_Store" "home/" "../" "./")
+
+ ("/Users/markj/.m2/repository/" (24024 59252 890366 778000) "avalon-framework/" "com/" "jdom/" "sslext/" "commons-beanutils/" "log4j/" "classworlds/" "commons-cli/" "commons-digester/" "xml-apis/" "commons-io/" "javax/" "xerces/" "commons-lang/" "oro/" "org/" "antlr/" "commons-collections/" "junit/" "backport-util-concurrent/" "commons-logging/" "commons-chain/" "logkit/" "net/" "asm/" "dom4j/" "commons-validator/" "commons-codec/" "../" "./")
+
+ ("/Users/markj/work/fury/fury-info/app/" (24039 50668 721073 743000) "dotco.rb" "devo.rb" "config.rb" "rack/" "session.rb" "main.rb" "../" "./")
+
+ ("/Users/markj/work/" (23904 56426 249392 437000) "vendor/" "tmp/" "docker_task/" "thomas/" "devkit/" "bobby/" "packtory/" "deeploy/" "fury/" "certs/" "exercism/" "homebrew-tap/" "synacy/" "osm/" "wordpress/" ".DS_Store" "../" "./")
+
+ ("/Users/markj/.ssh/" (23887 3252 370994 504000) "aws-jp-markj-imini.pem" "known_hosts" "markj-azure.pem" "popov.pub" "markj-ssh-do-ccc-guests" "ubuntu-techbox-aws-ssh" "id_rsa.old" "markj-deeploy-ssh" "markj-venturas-ssh.pub" "markj.gitlab_com.pub" "deployer-techbox-any-ssh.zip" "ubuntu-techbox-tas-ssh" "synacy-wl-prod-jms.pem" "markj-mark-qnuc" "id_rsa.heroku_mark_caresharing.pub" "synacy-rhel-base64-sydney.pem" "id_rsa.net.pub" "vagrant.key" "google_compute_known_hosts" "Archive.zip" "popov" "ubuntu-techbox-tas-ssh.pub" "dse.pem" "google_compute_engine" "root-symph-appscale-ssh" "ubuntu-devbox.pub" "ubuntu-venturas-cbd-ssh" "markj-deeploy-ssh.pub" "ubuntu-techbox-legacy-ssh" "markj-symph-ssh-gcp" "markj-reapra.git" "deployer-techbox-any-ssh" "markj-symph.git.pub" "rubydev-autotest.pub" "id_rsa.net" "synacy-base-rhel6.pem" "markj-reapra.git.pub" "google_compute_engine.pub" "aws-jp-caresharing-markj.pem" "ec2-markjeee-sg" "bob.pub" "markj-ssh-heroku" "ubuntu-techbox-legacy-ssh.ppk" "markj.autotest.git.pub" "synacy-base-rhel5.pem" "ec2tas.pem" "rubydev-devbox" "markj-azure.key.pub" "synacy-wl-prod-bastion.pem" "deployer-techbox-any-ssh.pub" "ubuntu-venturas-cbd-ssh.pub" "markj-ssh-do" "id_rsa.default" "markj.autotest.git" "config_old" "cbd-venturas-cbd-ssh.pub" "heybenny-dev.pem" "markj-cs-ssh-do" "rubydev-autotest.git" "deployer-venturas-any-ssh" "rubydev-autotest.git.pub" "markj-azure.key" "markj_symph.git.pub" "markj.gitlab_com" "markj.git" "markj-ssh-servers" "Mark John Buenconsejo (11DA5BBB) – Public.asc" "cbd-venturas-cbd-ssh" "tas-techbox-ssh" "root-symph-appscale-ssh.pub" "techbox SSH keys.zip" "ec2-simpleteq-us-west.pem" "markj-ssh-aurel.pub" "tb-www-techbox-ssh.pub" "aws-sg-caresharing-markj.pem" "root-symph-ssh-aliyun.pub" "markj_symph.git" "markj.git.pub" "techbox SSH keys/" "markjeee-11DA5BBB.pub.asc" "synacy-coreapi-prod.pem" "ubuntu-techbox-legacy-ssh.zip" "markj-prompt2" "rubydev-devbox.git" "markj_symph.pub" "ec2-markjeee-sg.pub" "markj-ssh-do.pub" "rubydev-devbox.pub" "synacy-base-rhel-tokyo.pem" "markj-azure-cs.key" "markj.gitlab.pub" "ubuntu-techbox-tas-ssh-lim" "markj-synacy-ssh" "markj.gitlab" "deployer-venturas-any-ssh.zip" "markj-symph.git" "markj-ssh-servers.pub" "markj-ssh-heroku.pub" "dse.pem.pub" "rubydev-devbox.git.pub" "markj-prompt2.pub" "ubuntu-techbox-aws-ssh.pub" "markj-venturas-ssh" "root-symph-ssh-aliyun" "config" "id_rsa.default.pub" "bob" "ubuntu-devbox" "root-ccs-ssh-aliyun" "ec2-simpleteq-jp.pem" "ec2-etroduce-ap-ne.pem" "synacy-coreapi-uswest.pem" "tas-techbox-ssh.pub" "markj-ssh-do-ccc-guests.pub" "markjeee-11DA5BBB.asc" "ec2-simpleteq-sg.pem" ".DS_Store" "known_hosts.old" "markj-cs-ssh-do.pub" "id_rsa.heroku_mark_caresharing" "markj-azure-cs.key.pub" "markj-synacy-ssh.pub" "rubydev-autotest" "tb-www-techbox-ssh" "markj-symph-ssh-gcp.pub" "synacy-coreapi-uswest1.pem" "deployer-venturas-any-ssh.pub" "mark-retina2.p12" "markj-ssh-aurel" "markj_symph" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/DotNetHello/" (24038 18077 792030 217000) "Program.cs" "DotNetHello.csproj" "bin/" ".DS_Store" "NuGet.Config" "obj/" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/DotNetWorld/" (24038 18047 113174 253000) "DotNetWorld.csproj" "prepare_env" "World.cs" "bin/" ".DS_Store" "NuGet.Config.New" "NuGet.Config" "obj/" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/dockerfiles/dotnet/" (24035 53262 8450 940000) "Dockerfile" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/dockerfiles/gradle/" (24038 18152 356923 580000) "Dockerfile" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/dockerfiles/maven/" (24038 19136 925915 108000) "Dockerfile" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/exec/" (23830 7290 343315 863000) "testfury_debian.sh" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/spec/" (24035 50100 14582 40000) "fixtures/" "exec/" "support/" "specs/" ".DS_Store" "spec_helper.rb" "../" "./")
+
+ ("/Users/markj/.config/NuGet/" (24035 50008 564139 457000) "NuGet.Config~" "NuGet.Config" "../" "./")
+
+ ("/Users/markj/.config/" (23904 56607 232011 966000) ".mono/" "stetic/" "NuGet/" "exercism/" "gatsby/" "htop/" "configstore/" "xbuild/" "Microsoft\\VisualStudio Services/" "gcloud/" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/dockerfiles/stretch/" (24035 45021 762139 130000) "Dockerfile" "../" "./")
+
+ ("/Users/markj/work/fury/furynix_public/dockerfiles/dotnetcore/" (24035 42392 811573 432000) "Dockerfile" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
